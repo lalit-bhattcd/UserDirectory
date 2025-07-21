@@ -79,9 +79,16 @@ button:hover{
     cursor: pointer;
 }
 @media (max-width: 800px) {
+    body{
+        margin: 0;
+    }
     #main{
         font-size: 4rem;
         text-align: center;
+    }
+    .all-items{
+        width: 100%;
+        border-radius: 0%;
     }
     input{
     margin-right: 15px;
@@ -96,7 +103,7 @@ input::placeholder{
     padding-left: 0.2em;
 }
 .all{
-    height: 4rem;
+    height: 3rem;
     width: 20rem;
     background-color: rgb(158, 165, 159);
     display: flex;
